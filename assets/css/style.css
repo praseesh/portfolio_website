@@ -378,18 +378,9 @@ main {
   gap: 15px;
 }
 
-
-.avatar-box:hover {
-  transform: scale(1.05);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-}
-
-.avatar-box img {
-  border-radius: 15px;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border: 3px solid rgba(255, 255, 255, 0.2);
+.avatar-box {
+  background: var(--bg-gradient-onyx);
+  border-radius: 20px;
 }
 
 .info-content .name {
